@@ -1,0 +1,45 @@
+{
+  "name": "degiro",
+  "version": "3.1.1",
+  "description": "DeGiro (unnoficial) API",
+  "main": "example/login.js",
+  "author": "Pedro Ladaria <pedro.ladaria@gmail.com>",
+  "scripts": {
+    "lint": "eslint ./src",
+    "test": "echo 'no tests'",
+    "prettier": "prettier --write --no-bracket-spacing --trailing-comma es5 --single-quote --list-different --tab-width 4 --print-width 120 ./src/**/*.js"
+  },
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "lodash": "^4.17.5",
+    "node-fetch": "2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "prettier": "^1.4.4"
+  },
+  "publishConfig": {
+    "repository": "https://registry.npmjs.org"
+  },
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pladaria/degiro.git"
+  },
+  "keywords": [
+    "degiro",
+    "api",
+    "client",
+    "stock",
+    "market",
+    "broker",
+    "trading"
+  ],
+  "bugs": {
+    "url": "https://github.com/pladaria/degiro/issues"
+  },
+  "homepage": "https://github.com/pladaria/degiro#readme"
+}
